@@ -1,5 +1,7 @@
 #!/bin/bash
 
+
+
 if test -z "$1"
 then
         echo 
@@ -31,6 +33,7 @@ else
         echo  >> $file
         echo if __name__ == '__main':>> $file         
         chmod +x $file
+        echo done
 
 
 fi

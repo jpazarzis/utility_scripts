@@ -31,7 +31,7 @@ else
         echo \# Creation Date: $DATE >> $file
         echo  >> $file
         echo  >> $file
-        echo if __name__ == '__main':>> $file         
+        echo if __name__ == '"__main__"':>> $file         
         chmod +x $file
         echo done
 
